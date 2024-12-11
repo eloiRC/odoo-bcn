@@ -92,6 +92,7 @@
       sn.src = h + s + '.js' + v;
       f.parentNode.insertBefore(sn, f);
     })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
+
   </script>
 
 </head>
@@ -125,7 +126,6 @@
 
 body{
     font-family: outfit!important;
-
 }
 
 .btn-accent {
@@ -154,12 +154,43 @@ header {
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5)!important;
     }
 
+.color{
+  color: #881c6e;
+}
+
+.text-shadow {
+  text-shadow: 0px 1.2px 1.7px rgba(0, 0, 0, 0.052),
+    0px 2.7px 3.9px rgba(0, 0, 0, 0.075),
+    0px 4.8px 7px rgba(0, 0, 0, 0.092),
+    0px 8px 11.6px rgba(0, 0, 0, 0.108),
+  0px 13.2px 19px rgba(0, 0, 0, 0.130)!important;
+}
+
+.big-text{
+ font-size: 3.5rem!important;
+}
+
+.icon-div{
+  background-color:#fbf5f3 ;
+  transition: ease-out 1000ms ;
+}
+.icon-div:hover{
+  transform: translateY(-15px);
+  box-shadow:0px 1.2px 1.7px rgba(0, 0, 0, 0.0400),
+    0px 2.7px 3.9px rgba(0, 0, 0, 0.600),
+    0px 4.8px 7px rgba(0, 0, 0, 0.700),
+    0px 8px 11.6px rgba(0, 0, 0, 0.860),
+  0px 13.2px 19px rgba(0, 0, 0, 1),
+  0px 17px 28px rgba(0, 0, 0, 2)!important;
+  background-color: #faf2f0;
+  transition: ease-out 500ms ;
+}
 
 </style>
 
 <body>
-  <header class="bg-dark">
-    <nav class="navbar navbar-expand-lg navbar-light">
+  <header class="bg-dark col-12">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light col-12">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="./images/logo odoo-bcn blanc 2.png" alt="Logo ondoo bcn" width="200" height="auto">
@@ -188,8 +219,87 @@ header {
   </div>
 </div>
 
-<main>
+<main class="col-12">
+<div class="text-center mt-5">
+  <h1 class="">
+    Odoo la solucion integral para
+    <br>
+    <span class="color fw-bold text-shadow big-text">TU NEGOCIO</span>
+  </h1>
+</div>
+<br>
+<br>
+<div class=" col-12 offset-lg-3 col-lg-6 mt-5 ">
+  <div class="d-flex flex-column">
+    <div class="mx-3 mx-lg-5 d-flex justify-content-between ">
+      <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Contabilidad">
+        <img src="./images/icon.svg" alt="" srcset="" >
+      </div>
+      <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="CRM"> 
+        <img src="./images/icon 2.svg" alt="" srcset="">
+      </div>
+      <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Información"> 
+        <img src="./images/icon 3.svg" alt="" srcset="">
+      </div>
+      <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Firma Electronica"> 
+        <img src="./images/icon 4.svg" alt="" srcset="">
+      </div>
+    </div>
+    
+    <div class="mx-3 mx-lg-5  d-flex justify-content-between mt-5">
+    <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Alquiler">
+      <img src="./images/icon 5.svg" alt="" srcset="" >
+    </div> 
+    <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="TPV"> 
+      <img src="./images/icon 6.svg" alt="" srcset="">
+    </div>
+    <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Pagina Web">
+      <img src="./images/icon 13.svg" alt="" srcset="" >
+    </div>
+    <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Documentos"> 
+      <img src="./images/icon 8.svg" alt="" srcset="">
+    </div>
+  </div>
 
+  <div class="mx-3 mx-lg-5  d-flex justify-content-between mt-5">
+    <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Ventas">
+      <img src="./images/icon 17.svg" alt="" srcset="" >
+    </div> 
+    <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Fabricacion"> 
+      <img src="./images/icon 18.svg" alt="" srcset="">
+    </div>
+    <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Inventario"> 
+      <img src="./images/icon 19.svg" alt="" srcset="">
+    </div>
+    <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Planificacion"> 
+      <img src="./images/icon 20.svg" alt="" srcset="">
+    </div>
+  </div>
+
+  <div class="mx-3 mx-lg-5  d-flex justify-content-between mt-5">
+    <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Proyectos">
+      <img src="./images/icon 9.svg" alt="" srcset="" >
+    </div> 
+    <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Conversaciones"> 
+      <img src="./images/icon 7.svg" alt="" srcset="">
+    </div>
+    <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Email Marketing"> 
+      <img src="./images/icon 15.svg" alt="" srcset="">
+    </div>
+    <div class="rounded shadow p-2 p-lg-3 icon-div" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Subscripciones"> 
+      <img src="./images/icon 12.svg" alt="" srcset="">
+    </div>
+  </div>
+
+
+  
+
+  </div>
+    
+  </div>
+ 
+  
+</div>
 </main>
 
 
@@ -198,7 +308,15 @@ header {
   <script defer src="./llibrerias/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
   <link defer rel="stylesheet" href="./llibrerias/bootstrap-5.3.3-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./llibrerias/fontawesome-free-5.13.0-web/css/all.min.css">
-
+  <script>
+    // Inicializar todos los tooltips en la página
+    document.addEventListener('DOMContentLoaded', function () {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    });
+</script>
 </body>
 
 </html>
